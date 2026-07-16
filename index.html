@@ -3,9 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musica Clasica</title>
+    <title>Música Clásica</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    La musica clasica es...
+
+    <!-- NAV -->
+    <nav>
+        <a href="#" class="logo">
+            <i class="fas fa-music"></i>
+            Música Clásica
+        </a>
+        <ul class="nav-links">
+            <li><a href="#musica"><i class="fas fa-headphones"></i>Música</a></li>
+            <li><a href="#artistas"><i class="fas fa-star"></i>Artistas</a></li>
+            <li><a href="#faq"><i class="fas fa-question-circle"></i>Preguntas Frecuentes</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1><i class="fas fa-music"></i> El Mundo de la Música Clásica</h1>
+        <p>Sumérgete en la majestuosidad de los sonidos atemporales que han definido la historia musical durante siglos.</p>
+        <a href="#definicion" class="btn">
+            <i class="fas fa-play"></i> Explorar
+        </a>
+    </section>
+
+    <!-- DEFINICION -->
+    <section class="definicion" id="definicion">
+        <h2 class="section-title"><i class="fas fa-book-open"></i> ¿Qué es la Música Clásica?</h2>
+        <p class="section-subtitle">Un viaje por la historia y esencia de este arte universal</p>
+        
+        <div class="definicion-content">
+            <div class="definicion-text">
+                <h3>Una tradición musical atemporal</h3>
+                <p>La <strong>música clásica</strong> es un término amplio que engloba la música culta occidental compuesta aproximadamente entre los siglos XI y XX. Se caracteriza por su complejidad estructural, su riqueza armónica y su profunda expresividad emocional.</p>
+                <p>Esta tradición musical abarca desde el canto gregoriano hasta las vanguardias del siglo XX, pasando por períodos tan importantes como el Barroco, el Clasicismo, el Romanticismo y el Impresionismo.</p>
+                <p>Lo que distingue a la música clásica es su capacidad para transmitir emociones universales a través de una sofisticada combinación de melodía, armonía y ritmo, siendo interpretada por orquestas, conjuntos de cámara y solistas de todo el mundo.</p>
+            </div>
+            
+            <div class="definicion-iconos">
+                <div class="icono-instrumento">
+                    <i class="fas fa-piano-keyboard"></i>
+                    <span>Piano</span>
+                </div>
+                <div class="icono-instrumento">
+                    <i class="fas fa-guitar"></i>
+                    <span>Violín</span>
+                </div>
+                <div class="icono-instrumento">
+                    <i class="fas fa-harp"></i>
+                    <span>Arpa</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GENEROS -->
+    <section class="generos" id="musica">
+        <h2 class="section-title"><i class="fas fa-compact-disc"></i> Períodos Musicales</h2>
+        <p class="section-subtitle">Explora los diferentes estilos que han moldeado la música clásica</p>
+        
+        <div class="generos-grid">
+            <div class="genero-card">
+                <i class="fas fa-church"></i>
+                <h3>Medieval</h3>
+                <p>Desde el canto gregoriano hasta las primeras formas polifónicas. Una música ligada a lo sagrado y espiritual.</p>
+            </div>
+            <div class="genero-card">
+                <i class="fas fa-crown"></i>
+                <h3>Barroco</h3>
+                <p>La época de Bach, Vivaldi y Handel. Caracterizada por ornamentos elaborados y el uso del bajo continuo.</p>
+            </div>
+            <div class="genero-card">
+                <i class="fas fa-balance-scale"></i>
+                <h3>Clasicismo</h3>
+                <p>La perfección y el equilibrio de Mozart y Haydn. Formas claras y estructuras perfectamente equilibradas.</p>
+            </div>
+            <div class="genero-card">
+                <i class="fas fa-heart"></i>
+                <h3>Romanticismo</h3>
+                <p>La pasión de Beethoven, Chopin y Wagner. La música como vehículo de emociones intensas y personales.</p>
+            </div>
+            <div class="genero-card">
+                <i class="fas fa-cloud-sun"></i>
+                <h3>Impresionismo</h3>
+                <p>Debussy y Ravel crearon paisajes sonoros etéreos, enfocándose en texturas y colores musicales.</p>
+            </div>
+            <div class="genero-card">
+                <i class="fas fa-atom"></i>
+                <h3>Moderno</h3>
+                <p>Siglo XX: atonalidad, experimentación y nuevas formas de expresión que rompieron todas las reglas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTISTAS -->
+    <section class="artistas" id="artistas">
+        <h2 class="section-title"><i class="fas fa-users"></i> Grandes Compositores</h2>
+        <p class="section-subtitle">Los genios que dieron vida a las obras maestras de la música clásica</p>
+        
+        <div class="artistas-grid">
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Ludwig van Beethoven</h3>
+                    <p class="epoca">1770 - 1827 | Romanticismo</p>
+                    <p>Puente entre el Clasicismo y el Romanticismo. Autor de 9 sinfonías, entre ellas la icónica "Coral" y la "Pastoral".</p>
+                </div>
+            </div>
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Wolfgang Amadeus Mozart</h3>
+                    <p class="epoca">1756 - 1791 | Clasicismo</p>
+                    <p>Un prodigio musical que compuso más de 600 obras. Sus óperas, sinfonías y conciertos son pilares del repertorio clásico.</p>
+                </div>
+            </div>
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Johann Sebastian Bach</h3>
+                    <p class="epoca">1685 - 1750 | Barroco</p>
+                    <p>Maestro de la polifonía y el contrapunto. Sus "Cuatro Suites" y "El Arte de la Fuga" son monumentos de la música.</p>
+                </div>
+            </div>
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Frédéric Chopin</h3>
+                    <p class="epoca">1810 - 1849 | Romanticismo</p>
+                    <p>El poeta del piano. Sus nocturnos, valses y estudios son piezas fundamentales del repertorio pianístico.</p>
+                </div>
+            </div>
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Claude Debussy</h3>
+                    <p class="epoca">1862 - 1918 | Impresionismo</p>
+                    <p>Pionero del Impresionismo musical. "Clair de Lune" y "Prélude à l'après-midi d'un faune" son obras eternas.</p>
+                </div>
+            </div>
+            <div class="artista-card">
+                <div class="artista-img">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="artista-info">
+                    <h3>Antonio Vivaldi</h3>
+                    <p class="epoca">1678 - 1741 | Barroco</p>
+                    <p>El virtuoso del violín. "Las Cuatro Estaciones" es una de las obras más reconocidas de toda la historia de la música.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <h2 class="section-title"><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h2>
+        <p class="section-subtitle">Resolvemos tus dudas sobre la música clásica</p>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span><i class="fas fa-music"></i> ¿Por qué se llama "música clásica"?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>El término "clásica" se utiliza para referirse a la música culta occidental en general, aunque técnicamente el "período clásico" abarca específicamente desde 1750 hasta 1820 (la época de Mozart y Haydn). Se le llama así porque estas obras se consideran "clásicas" en el sentido de ser estándares de referencia y modelos de excelencia musical.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span><i class="fas fa-guitar"></i> ¿Cuáles son los instrumentos principales?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>La orquesta clásica se divide en familias: cuerdas (violín, viola, chelo, contrabajo), maderas (flauta, oboe, clarinete, fagot), metales (trompeta, trombón, trompa, tuba) y percusión (timbales, xilófono, platillos). El piano y el órgano también son instrumentos fundamentales en la música clásica.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span><i class="fas fa-clock"></i> ¿Cuánto dura una obra clásica?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Varía enormemente: una sinfonía puede durar entre 20 minutos y una hora, una ópera puede extenderse por varias horas, mientras que una pieza para piano puede durar desde 3 minutos hasta 20 o más. La duración depende del género, la época y la intención del compositor.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span><i class="fas fa-headphones"></i> ¿Cómo empezar a escuchar música clásica?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Comienza con obras accesibles como "Las Cuatro Estaciones" de Vivaldi, el "Clair de Lune" de Debussy, la Sinfonía Nº 5 de Beethoven o el "Concierto para piano" de Chopin. Escucha sin prisas, permite que la música fluya y no te preocupes por entenderla técnicamente al principio.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span><i class="fas fa-calendar-alt"></i> ¿Desde cuándo existe la música clásica?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>La música clásica tiene sus raíces en el canto gregoriano del siglo IX, pero como la conocemos hoy, comenzó a desarrollarse en el siglo XIV con el Renacimiento. Cada período ha aportado estilos y formas nuevas, creando una tradición musical que abarca más de 1000 años de historia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fas fa-music"></i> Sobre Nosotros</h4>
+                <p>Dedicados a difundir la belleza de la música clásica y a acercar este arte universal a nuevas generaciones de melómanos.</p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fas fa-link"></i> Enlaces</h4>
+                <a href="#musica">Períodos Musicales</a>
+                <a href="#artistas">Grandes Compositores</a>
+                <a href="#faq">Preguntas Frecuentes</a>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fas fa-share-alt"></i> Síguenos</h4>
+                <p>Conéctate con nosotros en redes sociales</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><i class="fas fa-copyright"></i> 2024 Música Clásica | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="comportamiento/comportamiento.js">
+        
+    </script>
+
 </body>
 </html>
